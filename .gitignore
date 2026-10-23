@@ -1,0 +1,34 @@
+# Python 캐시
+__pycache__/
+*.py[cod]
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# 개인 설정
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# 모델 가중치
+*.pt
+*.onnx
+*.engine
+
+# 입력 및 결과 영상
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# 실행 결과
+safety_event_log.csv
+runs/
+
+# 운영체제 임시 파일
+.DS_Store
+Thumbs.db
